@@ -1,0 +1,35 @@
+.header, .footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+main {
+  width: 90%;
+  margin: 30px auto;
+}
+
+.llista {
+  margin-bottom: 40px;
+}
+
+.llista h2 {
+  background-color: white;
+  border: 2px solid #222;
+  padding: 15px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid gray;
+  width: 200px;
+  height: 200px;
+  padding: 15px;
+}
